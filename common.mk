@@ -270,7 +270,6 @@ PRODUCT_PACKAGES += \
     libsdmcore \
     libsdmutils \
     libmemutils \
-    libtinyxml \
     vendor.display.config@1.5 \
     vendor.display.config@1.15.vendor \
     vendor.display.config@2.0 \
