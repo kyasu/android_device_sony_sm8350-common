@@ -330,7 +330,7 @@ PRODUCT_PACKAGES += \
     liboffloadhal
 
 # Kernel
-PRODUCT_ENABLE_UFFD_GC := false
+PRODUCT_ENABLE_UFFD_GC := true
 
 # Keymaster
 PRODUCT_PACKAGES += \
