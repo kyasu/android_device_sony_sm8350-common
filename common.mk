@@ -297,7 +297,7 @@ PRODUCT_PACKAGES += \
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.1-service.sony
+    vendor.lineage.livedisplay-service.sony
 
 # Net
 PRODUCT_PACKAGES += \
