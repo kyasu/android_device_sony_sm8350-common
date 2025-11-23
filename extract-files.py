@@ -101,6 +101,10 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/libsomc_chokoballpal.so',
     ): blob_fixup()
         .replace_needed('libui.so', 'libui-v34.so'),
+    (
+        'system_ext/lib64/libwfdnative.so',
+    ): blob_fixup()
+        .add_needed('libinput_shim.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
