@@ -36,6 +36,18 @@ on property:ro.vendor.ltalabel.model=XQ-BC42
     setprop ro.vendor.product.rf.id PDX215-J2
     setprop persist.vendor.nfc.config_file_name "libnfc-nxp-typef.conf"
 
+on property:ro.vendor.ltalabel.model=A101SO
+    setprop ro.vendor.product.rf.id PDX215-S1
+    setprop persist.vendor.nfc.config_file_name "libnfc-nxp-typef.conf"
+
+on property:ro.vendor.ltalabel.model=SOG03
+    setprop ro.vendor.product.rf.id PDX215-K1
+    setprop persist.vendor.nfc.config_file_name "libnfc-nxp-typef.conf"
+
+on property:ro.vendor.ltalabel.model=SO-51B
+    setprop ro.vendor.product.rf.id PDX215-N1
+    setprop persist.vendor.nfc.config_file_name "libnfc-nxp-typef.conf"
+
 on property:ro.vendor.ltalabel.model=XQ-BQ72
     setprop ro.vendor.product.rf.id PDX214-C2
 
@@ -43,8 +55,20 @@ on property:ro.vendor.ltalabel.model=XQ-BQ62
     setprop ro.vendor.product.rf.id PDX214-A2US
 
 on property:ro.vendor.ltalabel.model=XQ-BQ52
-    setprop ro.vendor.product.rf.id PDX214-A2
+    setprop ro.vendor.product.rf.id PDX214-N1
 
 on property:ro.vendor.ltalabel.model=XQ-BQ42
     setprop ro.vendor.product.rf.id PDX214-J2
+    setprop persist.vendor.nfc.config_file_name "libnfc-nxp-typef.conf"
+
+on property:ro.vendor.ltalabel.model=A103SO
+    setprop ro.vendor.product.rf.id PDX214-S1
+    setprop persist.vendor.nfc.config_file_name "libnfc-nxp-typef.conf"
+
+on property:ro.vendor.ltalabel.model=SOG05
+    setprop ro.vendor.product.rf.id PDX214-K1N41
+    setprop persist.vendor.nfc.config_file_name "libnfc-nxp-typef.conf"
+
+on property:ro.vendor.ltalabel.model=SO-53B
+    setprop ro.vendor.product.rf.id PDX214-N1
     setprop persist.vendor.nfc.config_file_name "libnfc-nxp-typef.conf"
